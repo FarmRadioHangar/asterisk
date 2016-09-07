@@ -70,7 +70,7 @@ VOLUME /etc/asterisk
 VOLUME /var/lib/asterisk
 
 #Copy minimum configuration files so that it can start
-COPY initconfigfiles/etc/* /etc/asterisk/
+COPY etc/etc/* /etc/asterisk/
 
 #Make asterisk port open
 EXPOSE 5060
